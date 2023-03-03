@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-import temple from '../public/temple.JPG';
-import tree from '../public/tree.JPG';
+// import temple from '../public/temple.JPG';
+// import tree from '../public/tree.JPG';
 
 export default function About() {
   return (
@@ -18,21 +18,33 @@ export default function About() {
               Datenanalyse und Interpretation sowie in der Planung und Umsetzung
               von A/B-Tests und dem damit verbundenen Projektmanagement.
             </p>
-            <div className='btn-row'>
-                <Link href="#">Lebenslauf ansehen</Link>
+            <div className="btn-row">
+              <Link href="#">Lebenslauf ansehen</Link>
             </div>
           </div>
-          <div className='about-images'>
+          <div className="about-images">
             <div>
-                <Image alt='Test' className='top-right' src={temple}></Image>
+              <Image
+                alt="Test"
+                className="top-right"
+                src={'/temple.jpg'}
+                width={700}
+                height={700}
+              ></Image>
             </div>
             <div>
-            <Image alt='Test' className='bottom-left' src={tree}></Image>
+              <Image
+                alt="Test"
+                className="bottom-left"
+                src={'/tree.jpg'}
+                width={700}
+                height={700}
+              ></Image>
             </div>
           </div>
         </div>
       </div>
-      <div className='yellow-box'></div>
+      <div className="yellow-box"></div>
     </div>
   );
 }

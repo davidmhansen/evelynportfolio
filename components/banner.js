@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import temple from '../public/temple.JPG';
-import portrait from '../public/portrait.jpg';
-import tree from '../public/tree.JPG';
+// import temple from '../public/temple.JPG';
+// import portrait from '../public/portrait.jpg';
+// import tree from '../public/tree.JPG';
 
 import { motion } from 'framer-motion';
 
@@ -24,7 +24,9 @@ export default function Banner() {
             <Image
               className="side-image left"
               alt="User profile picture"
-              src={temple}
+              src={'/temple.jpg'}
+              width={700}
+              height={700}
             />
           </motion.div>
           <motion.div
@@ -56,7 +58,9 @@ export default function Banner() {
             <Image
               className="main-image"
               alt="User profile picture"
-              src={portrait}
+              src={'/portrait.jpg'}
+              width={700}
+              height={700}
             />
           </motion.div>
           <motion.div
@@ -73,7 +77,9 @@ export default function Banner() {
             <Image
               className="side-image right"
               alt=" User profile picture"
-              src={tree}
+              src={'/tree.jpg'}
+              width={700}
+              height={700}
             />
           </motion.div>
         </div>
