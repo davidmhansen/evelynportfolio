@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-import temple from '../public/temple.jpg';
-import tree from '../public/tree.jpg';
+import temple from '../public/temple.JPG';
+import tree from '../public/tree.JPG';
 
 export default function About() {
   return (

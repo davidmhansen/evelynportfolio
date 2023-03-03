@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import temple from '../public/temple.jpg';
+import temple from '../public/temple.JPG';
 import portrait from '../public/portrait.jpg';
-import tree from '../public/tree.jpg';
+import tree from '../public/tree.JPG';
 
 import { motion } from 'framer-motion';
 
