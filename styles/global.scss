@@ -289,9 +289,19 @@ header {
 // Footer
 .footer {
   height: 80px;
+  width: 100%;
+  top: 0;
+
   .footer__wrapper {
+    height: 80px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    @media (max-width: 640px) {
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+      }
     .logo {
       text-decoration: none;
       margin: 0 20px;

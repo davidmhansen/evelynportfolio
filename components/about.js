@@ -19,7 +19,7 @@ export default function About() {
               von A/B-Tests und dem damit verbundenen Projektmanagement.
             </p>
             <div className='btn-row'>
-                <Link href="#">Lebenslauf herunterladen</Link>
+                <Link href="#">Lebenslauf ansehen</Link>
             </div>
           </div>
           <div className='about-images'>
