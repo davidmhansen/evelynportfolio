@@ -19,7 +19,7 @@ export default function Banner() {
               y: 0,
               opacity: 1,
             }}
-            transition={{ ease: 'easeOut', duration: 1 }}
+            transition={{ ease: 'easeOut', duration: 1.5 }}
           >
             <Image
               className="side-image left"
@@ -50,7 +50,7 @@ export default function Banner() {
               y: 0,
               opacity: 1,
             }}
-            transition={{ ease: 'easeOut', duration: 1 }}
+            transition={{ ease: 'easeOut', duration: 2 }}
             className="main-image__wrapper"
           >
             <Image
@@ -68,7 +68,7 @@ export default function Banner() {
               y: 0,
               opacity: 1,
             }}
-            transition={{ ease: 'easeOut', duration: 1 }}
+            transition={{ ease: 'easeOut', duration: 1.5 }}
           >
             <Image
               className="side-image right"
