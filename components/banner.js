@@ -24,7 +24,7 @@ export default function Banner() {
             <Image
               className="side-image left"
               alt="User profile picture"
-              src={'/temple.jpg'}
+              src={'/temple.JPG'}
               width={700}
               height={700}
             />
@@ -77,7 +77,7 @@ export default function Banner() {
             <Image
               className="side-image right"
               alt=" User profile picture"
-              src={'/tree.jpg'}
+              src={'/tree.JPG'}
               width={700}
               height={700}
             />

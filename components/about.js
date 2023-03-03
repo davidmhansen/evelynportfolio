@@ -27,7 +27,7 @@ export default function About() {
               <Image
                 alt="Test"
                 className="top-right"
-                src={'/temple.jpg'}
+                src={'/temple.JPG'}
                 width={700}
                 height={700}
               ></Image>
@@ -36,7 +36,7 @@ export default function About() {
               <Image
                 alt="Test"
                 className="bottom-left"
-                src={'/tree.jpg'}
+                src={'/tree.JPG'}
                 width={700}
                 height={700}
               ></Image>
