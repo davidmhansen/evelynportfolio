@@ -1,9 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-// import temple from '../public/temple.JPG';
-// import tree from '../public/tree.JPG';
-
 export default function About() {
   return (
     <div className="about">
@@ -14,12 +11,15 @@ export default function About() {
             <p>
               Als E-Commerce Managerin mit Schwerpunkt auf Conversion Rate
               Optimierung arbeite ich engagiert an der Performance-Steigerung
-              unterschiedlicher Online-Shops. Meine Stärken liegen in der
-              Datenanalyse und Interpretation sowie in der Planung und Umsetzung
-              von A/B-Tests und dem damit verbundenen Projektmanagement.
+              unterschiedlicher Online-Shops. Zu meinen größten Stärken zählt
+              meine analytische, kunden- und lösungsorientierte Denkweise, sowie
+              meine ausgeprägten Fähigkeiten in den Bereichen Kommunikation und
+              Projektmanagement. Als empathische und extrovertierte Person
+              arbeite ich gerne im Team, treibe aber auch eigenverantwortlich
+              Projekte zielstrebig voran.
             </p>
             <div className="btn-row">
-              <Link href="#">Lebenslauf ansehen</Link>
+            <a target="_blank" href="/Lebenslauf.pdf">Lebenslauf ansehen</a>
             </div>
           </div>
           <div className="about-images">
@@ -27,7 +27,7 @@ export default function About() {
               <Image
                 alt="Test"
                 className="top-right"
-                src={'/temple.JPG'}
+                src={'/work.jpg'}
                 width={700}
                 height={700}
               ></Image>
@@ -36,7 +36,7 @@ export default function About() {
               <Image
                 alt="Test"
                 className="bottom-left"
-                src={'/tree.JPG'}
+                src={'/do-something-great.jpg'}
                 width={700}
                 height={700}
               ></Image>

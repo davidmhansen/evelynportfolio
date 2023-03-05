@@ -18,11 +18,11 @@ export default function Header() {
       >
         <div className="header__wrapper">
           <div className="logo">
-            <Link href="#">Evelyn Falkenberg</Link>
+            <Link href="/">Evelyn Falkenberg</Link>
           </div>
           <div className="navigation">
             <nav>
-              <Link href="#">Lebenslauf</Link>
+              <a target="_blank" href="/Lebenslauf.pdf">Lebenslauf</a>
               <Link href="mailto:mail@evelynfalkenberg.de">Kontakt</Link>
               <a
                 target="_blank"

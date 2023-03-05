@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import { Inter } from 'next/font/google';
 
 
@@ -18,7 +17,7 @@ export default function Home() {
       <title>Evelyn Falkenberg - E-Commerce Managerin</title>
       <meta name="description" content="Evelyn Falkenberg - E-Commerce Managerin" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/favicon.svg" />
     </Head>
     <Header/>
     <Banner/>

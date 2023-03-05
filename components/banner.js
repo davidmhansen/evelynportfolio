@@ -1,7 +1,4 @@
 import Image from 'next/image';
-// import temple from '../public/temple.JPG';
-// import portrait from '../public/portrait.jpg';
-// import tree from '../public/tree.JPG';
 
 import { motion } from 'framer-motion';
 
@@ -23,8 +20,8 @@ export default function Banner() {
           >
             <Image
               className="side-image left"
-              alt="User profile picture"
-              src={'/temple.JPG'}
+              alt="Evelyn Falkenberg in Vietnam"
+              src={'/vacation.jpg'}
               width={700}
               height={700}
             />
@@ -57,8 +54,8 @@ export default function Banner() {
           >
             <Image
               className="main-image"
-              alt="User profile picture"
-              src={'/portrait.jpg'}
+              alt="Profilbild"
+              src={'/evelyn-5.jpg'}
               width={700}
               height={700}
             />
@@ -76,8 +73,8 @@ export default function Banner() {
           >
             <Image
               className="side-image right"
-              alt=" User profile picture"
-              src={'/tree.JPG'}
+              alt=" Evelyn Falkenberg in Kambodscha"
+              src={'/vacation-2.jpg'}
               width={700}
               height={700}
             />

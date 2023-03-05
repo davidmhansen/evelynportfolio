@@ -6,12 +6,12 @@ export default function Footer() {
       <div className="container">
         <div className="footer__wrapper">
           <div className="logo">
-            <Link href="#">Evelyn Falkenberg</Link>
+            <Link href="/">Evelyn Falkenberg</Link>
             - Copyright {new Date().getFullYear()}
           </div>
           <div className="navigation">
             <nav>
-              <Link href="#">Impressum</Link>
+              <Link href="/impressum">Impressum</Link>
               <Link href="mailto:mail@evelynfalkenberg.de">Kontakt</Link>
             </nav>
           </div>
