@@ -1,28 +1,24 @@
 import Link from 'next/link';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 
 export default function Header() {
   return (
-    <header>
-      <motion.div
-        initial={{
-          y: -10,
-          opacity: 0,
-        }}
-        animate={{
-          y: 0,
-          opacity: 1,
-        }}
-        transition={{ ease: 'easeOut', duration: 0.5 }}
-        className="container"
-      >
+    <motion.header
+      initial={{ opacity: 0, y: -400 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ ease: [0.83, 0, 0.17, 1], duration: 1.6, delay: 0.1 }}
+      exit={{ opacity: 0, y: 200 }}
+    >
+      <div className="container">
         <div className="header__wrapper">
           <div className="logo">
             <Link href="/">Evelyn Falkenberg</Link>
           </div>
           <div className="navigation">
             <nav>
-              <a target="_blank" href="/Lebenslauf.pdf">Lebenslauf</a>
+              <a target="_blank" href="/Lebenslauf.pdf">
+                Lebenslauf
+              </a>
               <Link href="mailto:mail@evelynfalkenberg.de">Kontakt</Link>
               <a
                 target="_blank"
@@ -33,7 +29,7 @@ export default function Header() {
             </nav>
           </div>
         </div>
-      </motion.div>
-    </header>
+      </div>
+    </motion.header>
   );
 }
