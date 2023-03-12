@@ -16,7 +16,7 @@ export default function Header() {
           </div>
           <div className="navigation">
             <nav>
-              <a target="_blank" href="/Lebenslauf.pdf">
+              <a target="_blank" href="/Lebenslauf-2023.pdf">
                 Lebenslauf
               </a>
               <Link href="mailto:mail@evelynfalkenberg.de">Kontakt</Link>
