@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import { motion, AnimatePresence } from 'framer-motion';
+import Link from "next/link";
+import { motion } from "framer-motion";
 
 export default function Header() {
   return (
@@ -16,7 +16,7 @@ export default function Header() {
           </div>
           <div className="navigation">
             <nav>
-              <a target="_blank" href="/Lebenslauf-2023.pdf">
+              <a target="_blank" href="/Lebenslauf-Evelyn-Falkenberg.pdf">
                 Lebenslauf
               </a>
               <Link href="mailto:mail@evelynfalkenberg.de">Kontakt</Link>

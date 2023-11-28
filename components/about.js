@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import Image from 'next/image';
+import Link from "next/link";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -19,7 +19,9 @@ export default function About() {
               Projekte zielstrebig voran.
             </p>
             <div className="btn-row">
-            <a target="_blank" href="/Lebenslauf.pdf">Lebenslauf ansehen</a>
+              <a target="_blank" href="/Lebenslauf-Evelyn-Falkenberg.pdf">
+                Lebenslauf ansehen
+              </a>
             </div>
           </div>
           <div className="about-images">
@@ -27,7 +29,7 @@ export default function About() {
               <Image
                 alt="Test"
                 className="top-right"
-                src={'/work.jpg'}
+                src={"/work.jpg"}
                 width={700}
                 height={700}
               ></Image>
@@ -36,7 +38,7 @@ export default function About() {
               <Image
                 alt="Test"
                 className="bottom-left"
-                src={'/do-something-great.jpg'}
+                src={"/do-something-great.jpg"}
                 width={700}
                 height={700}
               ></Image>
