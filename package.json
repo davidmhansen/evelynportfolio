@@ -8,15 +8,19 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "engines": {
+    "node": ">=22.x"
+  },
   "dependencies": {
-    "eslint": "8.35.0",
-    "eslint-config-next": "13.2.3",
-    "framer-motion": "^10.0.1",
-    "next": "13.2.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "eslint": "9.31.0",
+    "eslint-config-next": "15.4.1",
+    "framer-motion": "^12.23.6",
+    "next": "15.4.1",
+    "npm-check-updates": "^18.0.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
   },
   "devDependencies": {
-    "sass": "^1.58.3"
+    "sass": "^1.89.2"
   }
 }
